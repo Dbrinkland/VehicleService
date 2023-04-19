@@ -1,3 +1,27 @@
 ﻿<Properties StartupConfiguration="{374AA710-8117-4AA6-AFAC-2337300D497B}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.vehicle-service PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/VehicleController.cs">
+    <Files>
+      <File FileName="Controllers/VehicleController.cs" Line="30" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="vehicle-service" expanded="True">
+            <Node name="vehicle-service" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="VehicleController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>
