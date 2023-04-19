@@ -18,7 +18,23 @@ namespace Controllers;
 [Route("[controller]")]
 public class VehicleController : ControllerBase
 {
-    public List<Vehicle> Vehicles = new List<Vehicle>();
+    public List<Vehicle> Vehicles = new List<Vehicle>()
+    {
+        new Vehicle
+        {
+            VehicleId = 1,
+            VehicleBrand = "Mercedes",
+            VehicleRegNr = "VJ30535",
+            MilesDriven = 100
+        },
+        new Vehicle
+        {
+            VehicleId = 2,
+            VehicleBrand = "Audi",
+            VehicleRegNr = "BK21211",
+            MilesDriven = 35000
+        }
+    };
 
     private readonly ILogger<WeatherForecastController> _logger;
     private readonly IConfiguration _config;
