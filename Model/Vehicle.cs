@@ -9,7 +9,9 @@ public class Vehicle
 	public int VehicleRegNr { get; set; }
 	public int MilesDriven { get; set; }
 
-	public List<VehicleImage> ImageHistory { get; set; }
+	public List<ImageHistory> ImageHistory { get; set; }
+
+	public List<ServiceHistory> ServiceHistory { get; set; }
 
 	public Vehicle()
 	{

@@ -2,7 +2,7 @@
 
 namespace Model;
 
-public class VehicleImage
+public class ImageHistory
 {
 	public Vehicle Vehicle { get; set; }
 	public Uri Image { get; set; }
@@ -11,9 +11,9 @@ public class VehicleImage
 
 	public DateTime ImageDate { get; set; }
 	public string ImageDescription { get; set; }
-	public string Name { get; set; }
+	public string ImageUploaderName { get; set; }
 
-	public VehicleImage()
+	public ImageHistory()
 	{
 
 	}

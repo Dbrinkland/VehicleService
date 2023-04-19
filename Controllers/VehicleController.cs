@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Model;
+using Controllers;
 
 namespace Controllers;
 
@@ -13,10 +14,12 @@ public class VehicleController : ControllerBase
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
+    private readonly IConfiguration _config;
 
-    public VehicleController(ILogger<WeatherForecastController> logger)
+    public VehicleController(ILogger<WeatherForecastController> logger, IConfiguration config)
     {
         _logger = logger;
+        _config = config;
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
@@ -30,4 +33,7 @@ public class VehicleController : ControllerBase
         })
         .ToArray();
     }
+
+
+
 }
