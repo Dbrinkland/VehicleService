@@ -1,51 +1,35 @@
 ﻿<Properties StartupConfiguration="{374AA710-8117-4AA6-AFAC-2337300D497B}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.vehicle-service PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/VehicleController.cs">
-    <Files>
-      <File FileName="Controllers/VehicleController.cs" Line="30" Column="6" />
-=======
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.vehicle-service PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/VehicleController.cs">
     <Files>
-      <File FileName="Model/Vehicle.cs" Line="14" Column="30" />
-      <File FileName="Controllers/VehicleController.cs" Line="57" Column="10" />
-      <File FileName="Model/VehicleImage.cs" Line="8" Column="32" />
-      <File FileName="Model/VehicleServiceHistory.cs" Line="11" Column="1" />
+      <File FileName="Controllers/VehicleController.cs" Line="111" Column="35" />
+      <File FileName="Model/ServiceHistory.cs" Line="12" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Controllers/ServiceHistory.cs" Line="76" Column="1" />
       <File FileName="Controllers/WeatherForecastController.cs" Line="1" Column="1" />
->>>>>>> develop
+      <File FileName="Model/Vehicle.cs" Line="18" Column="3" />
+      <File FileName="Model/ImageHistory.cs" Line="1" Column="1" />
+      <File FileName="Model/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="Data/VehicleService.cs" Line="25" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="vehicle-service" expanded="True">
             <Node name="vehicle-service" expanded="True">
-<<<<<<< HEAD
-              <Node name="Controllers" expanded="True">
-                <Node name="VehicleController.cs" selected="True" />
-              </Node>
-=======
               <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
               <Node name="Model" expanded="True" />
->>>>>>> develop
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-<<<<<<< HEAD
-=======
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
->>>>>>> develop
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>
