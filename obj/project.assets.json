@@ -460,19 +460,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/daddel/.nuget/packages/": {}
+    "/Users/brinkland/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/daddel/Documents/Skole/4sem/infra/fleet-management/vehicle-service/vehicle-service.csproj",
+      "projectUniqueName": "/Users/brinkland/Desktop/fleet-management/VehicleService/vehicle-service.csproj",
       "projectName": "vehicle-service",
-      "projectPath": "/Users/daddel/Documents/Skole/4sem/infra/fleet-management/vehicle-service/vehicle-service.csproj",
-      "packagesPath": "/Users/daddel/.nuget/packages/",
-      "outputPath": "/Users/daddel/Documents/Skole/4sem/infra/fleet-management/vehicle-service/obj/",
+      "projectPath": "/Users/brinkland/Desktop/fleet-management/VehicleService/vehicle-service.csproj",
+      "packagesPath": "/Users/brinkland/.nuget/packages/",
+      "outputPath": "/Users/brinkland/Desktop/fleet-management/VehicleService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/daddel/.nuget/NuGet/NuGet.Config"
+        "/Users/brinkland/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
