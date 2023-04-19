@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "MyBnOgyMrvTD6fxcIEmSqpK165Z3+yQ3Rt3qN9Po2/i3PoMKBog/IwWKLLHqirDTP+TuHGwuppA6loUsadd9RQ==",
+  "success": true,
+  "projectFilePath": "/Users/daddel/Documents/Skole/4sem/infra/fleet-management/vehicle-service/vehicle-service.csproj",
+  "expectedPackageFiles": [
+    "/Users/daddel/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
+    "/Users/daddel/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/daddel/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/daddel/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "/Users/daddel/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/daddel/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/daddel/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
