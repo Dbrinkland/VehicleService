@@ -6,16 +6,24 @@ public class Vehicle
 {
 	public int VehicleId { get; set; }
 	public string VehicleBrand { get; set; }
-	public int VehicleRegNr { get; set; }
+	public string VehicleRegNr { get; set; }
 	public int MilesDriven { get; set; }
 
-	public List<ImageHistory> ImageHistory { get; set; }
+	public List<ImageHistory>? ImageHistory { get; set; }
 
-	public List<ServiceHistory> ServiceHistory { get; set; }
+	public List<ServiceHistory>? ServiceHistory { get; set; }
 
 	public Vehicle()
 	{
 
 	}
+
+    public Vehicle(int vehicleId, string vehicleBrand, string vehicleRegNr, int milesDriven)
+    {
+		this.VehicleId = vehicleId;
+        this.VehicleBrand = vehicleBrand;
+        this.VehicleRegNr = vehicleRegNr;
+		this.MilesDriven = milesDriven;
+    }
 }
 
