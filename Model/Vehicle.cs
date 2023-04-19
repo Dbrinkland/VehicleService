@@ -8,8 +8,9 @@ public class Vehicle
 	public string VehicleBrand { get; set; }
 	public string VehicleRegNr { get; set; }
 	public int MilesDriven { get; set; }
+    public virtual ICollection<ServiceHistory> ServiceHistories { get; set; }
 
-	public List<ImageHistory>? ImageHistory { get; set; }
+    public List<ImageHistory>? ImageHistory { get; set; }
 
 	public List<ServiceHistory>? ServiceHistory { get; set; }
 
