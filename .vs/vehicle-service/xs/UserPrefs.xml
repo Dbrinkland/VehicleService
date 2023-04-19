@@ -5,7 +5,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/VehicleController.cs">
     <Files>
       <File FileName="Model/Vehicle.cs" />
-      <File FileName="Controllers/VehicleController.cs" Line="100" Column="10" />
+      <File FileName="Controllers/VehicleController.cs" Line="23" Column="20" />
       <File FileName="Controllers/WeatherForecastController.cs" />
     </Files>
     <Pads>
@@ -13,7 +13,9 @@
         <State name="__root__">
           <Node name="vehicle-service" expanded="True">
             <Node name="vehicle-service" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="VehicleController.cs" selected="True" />
+              </Node>
               <Node name="Model" expanded="True" />
             </Node>
           </Node>
