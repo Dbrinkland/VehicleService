@@ -18,7 +18,7 @@ namespace Controllers;
 [Route("[controller]")]
 public class VehicleController : ControllerBase
 {
-    public List<Vehicle> Vehicles = new List<Vehicle>()
+    private static List<Vehicle> Vehicles = new List<Vehicle>()
     {
         new Vehicle
         {
@@ -58,8 +58,8 @@ public class VehicleController : ControllerBase
             VehicleRegNr = vehicle.VehicleRegNr,
             MilesDriven = vehicle.MilesDriven
         };
-
         _logger.LogInformation("nyt vehicle objekt lavet");
+
 
         if (newVehicle.VehicleId == 0)
         {
@@ -69,13 +69,42 @@ public class VehicleController : ControllerBase
         {
             Vehicles.Add(newVehicle);
         }
-
         _logger.LogInformation("nyt vehicle objekt added til Vehicles list");
 
-        return Ok(vehicle);
+
+        return Ok(newVehicle);
 
     }
 
+
+    [HttpGet("getallvehicles"), DisableRequestSizeLimit]
+    public async Task<IActionResult> GetAllVehicles() //skal måske laves om til at returne en list (public list<vehicle> GetAllVehicles()
+    {
+        _logger.LogInformation("getAllVehicles funktion ramt");
+
+        if (Vehicles == null)
+        {
+            return BadRequest("Vehicles list is empty");
+        }
+
+
+        return Ok(Vehicles.OrderBy(a => a.VehicleId));
+    }
+
+
+    [HttpGet("getvehicle/{id}"), DisableRequestSizeLimit]
+    public async Task<IActionResult> GetVehicle(int id) //skal måske laves om til at returne en list (public list<vehicle> GetAllVehicles()
+    {
+        _logger.LogInformation("getVehicle funktion ramt");
+
+        Vehicle vehicle = new Vehicle(); //initialiserer nyt vehicle objekt
+        vehicle = Vehicles.FirstOrDefault(a => a.VehicleId == id)!; //sætter vehicle til matchende id
+
+        _logger.LogInformation("ønsket vehicle objejt sat til vehicle objekt med id");
+
+
+        return Ok(vehicle);
+    }
 
 
 }
